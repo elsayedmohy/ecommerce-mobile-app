@@ -9,7 +9,7 @@ function WelcomeScreen({navigation}) {
         <ImageBackground
         blurRadius={5}
          style={styles.background} 
-         source={require('../assets/layout1.jpg')}
+         source={require('../assets/layout2.jpg')}
         >
              
              <View style={styles.LogoContainer} >
@@ -42,10 +42,11 @@ const styles = StyleSheet.create({
         top:30,
     },
     tagLine:{
-        fontWeight:"bold",
+        fontWeight:"500",
         fontFamily: Platform.OS === "android" ? "Roboto" : "Avenir",
         fontSize:20,
-        top:150,
+        top:145,
+        color:"#333"
     },
     ButtonContainer:{
         width:"100%",
